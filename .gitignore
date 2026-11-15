@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyTorch / Models
+*.pt
+*.pth
+*.onnx
+*.bin
+
+# Datasets and Large IQ Dumps
+data/*.iq
+data/*.dat
+data/*.bin
+data/*.h5
+data/*.hdf5
+data/*.tar*
+data/*.zip
+
+# Node / Web Frontend
+web/node_modules/
+web/dist/
+web/build/
+web/.next/
+web/.cache/
+
+# IDE / Editor configs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Logs & temp files
+*.log
+logs/
+.pytest_cache/
+.coverage
+htmlcov/
